@@ -1,0 +1,3 @@
+CREATE TABLE "recipient" ("id" integer not null primary key autoincrement, "name" varchar not null, "email" varchar not null);
+CREATE TABLE "special_offer" ("id" integer not null primary key autoincrement, "name" varchar not null, "discount" integer not null default '15');
+CREATE TABLE "voucher" ("id" integer not null primary key autoincrement, "code" varchar not null, "recipient_id" integer null, "special_offer_id" integer null, "due_date" datetime not null, "used" tinyint(1) not null default '0', "used_on" datetime null, foreign key("recipient_id") references "recipient"("id"), foreign key("special_offer_id") references "special_offer"("id"));
