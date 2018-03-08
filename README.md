@@ -9,9 +9,9 @@ A voucher code can only ​be​ ​used​ ​once​ and ​there​ ​can​
 
 ## Get started
 Requirements:
-PHP 7 or greater
-Composer
-SQLite
+\PHP 7 or greater
+\Composer
+\SQLite
 
 Update app after clone by using command
 
