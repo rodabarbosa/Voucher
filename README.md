@@ -21,27 +21,27 @@ Update app after clone by using command
 *(All entities was created based on eloquent model)*
 
  **Recipient**
-Id
-Name
+Id  
+Name  
 Email
 
 **SpecialOffer**
-Id
-Name
+Id  
+Name  
 Discount
  
 **VoucherCode**
-Id
-Code
-Recipient_Id
-Special_Offer_Id
-Due_Date
-Used
+Id  
+Code  
+Recipient_Id  
+Special_Offer_Id  
+Due_Date  
+Used  
 Used_On
 
 **User**  *(Eloquent default, it will be used with authentication when implemented)*
-Name
-Email
+Name  
+Email  
 
 ## Funcionalities
 
