@@ -39,7 +39,7 @@ Due_Date
 Used  
 Used_On
 
-**User**  *(Eloquent default, it will be used with authentication when implemented)*
+**User**  *(Eloquent default, it will be used with authentication when implemented)*  
 Name  
 Email  
 
