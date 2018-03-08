@@ -8,9 +8,12 @@ A Voucher​ ​pool​ ​is​ ​a​ ​collection​ ​of​​ ​codes�
 A voucher code can only ​be​ ​used​ ​once​ and ​there​ ​can​ ​be​ ​many​ ​recipients​ ​in​ ​a​ ​voucher​ ​pool. There for, every code must be unique.
 
 ## Get started
-Requirements
+Requirements:
+
 PHP 7 or greater
+
 Composer
+
 SQLite
 
 Update app after clone by using command
