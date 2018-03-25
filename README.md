@@ -1,6 +1,7 @@
 # Voucher
 
 PHP's ​voucher​ ​pool​ ​microservice​ .
+- This project has been altered to meet some ativity requirement.
 
 ### What​ ​is​ ​a​ ​voucher​ ​pool?
 
