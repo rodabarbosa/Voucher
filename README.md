@@ -14,8 +14,10 @@ Composer
 SQLite
 
 Update app after clone by using command
+> $ composer update
 
-    $ composer update
+Was use migration to generate database.
+> $ php artisan migration
 
 ### Entities
 *(All entities was created based on eloquent model)*
